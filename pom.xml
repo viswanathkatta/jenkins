@@ -21,7 +21,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+	
+	 <dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>1.6.0</version>
+</dependency>
   </dependencies>
+  
+ 
   <distributionManagement>
   <repository>
   <id>simha</id>
